@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+vdecoder4to16
+Z0 !s110 1643252199
+!i10b 1
+!s100 GfQdQAkFal3:FWbXkjC?01
+IE`3o;O=GOPaC5[oM]TnWI2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/sefun/Dev/Digital-Design-Projects/Project-1
+Z3 w1643061573
+8C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/decoder4to16.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/decoder4to16.v
+Z4 L0 11
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1643252198.000000
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/decoder4to16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/decoder4to16.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vsn74138_structural
+R0
+!i10b 1
+!s100 dSVeP1JJj>V?Z2ISCo]J]2
+I9T:UL;2La?HS@UdM3f0<h0
+R1
+R2
+R3
+8C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/sn74138_structural.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/sn74138_structural.v
+R4
+R5
+r1
+!s85 0
+31
+Z8 !s108 1643252199.000000
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/sn74138_structural.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/sn74138_structural.v|
+!i113 1
+R6
+R7
+vtb_decoder4to16
+R0
+!i10b 1
+!s100 S[=0hQFJb4V2^74^EO3`Q3
+I5@D1k`Wj?V?3J8jg9YzDV0
+R1
+R2
+R3
+8C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/tb_decoder4to16.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/tb_decoder4to16.v
+Z9 L0 20
+R5
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/tb_decoder4to16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/tb_decoder4to16.v|
+!i113 1
+R6
+R7
+vtb_sn74138
+R0
+!i10b 1
+!s100 J5X6b80M28Sffb0F<Z1SJ0
+I[5_oiVO^eZVYki:PC>IA43
+R1
+R2
+R3
+8C:\Users\sefun\Dev\Digital-Design-Projects\Project-1\Part1\tb_sn74138.v
+FC:\Users\sefun\Dev\Digital-Design-Projects\Project-1\Part1\tb_sn74138.v
+R9
+R5
+r1
+!s85 0
+31
+R8
+!s107 C:\Users\sefun\Dev\Digital-Design-Projects\Project-1\Part1\tb_sn74138.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\sefun\Dev\Digital-Design-Projects\Project-1\Part1\tb_sn74138.v|
+!i113 1
+R6
+R7
