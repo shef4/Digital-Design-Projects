@@ -11,20 +11,34 @@
 `timescale 1ns/1ns 
 
 module tb_comparator_sefunmi();
-     reg  a, b, c_in;
-     wire sum, c_out;
-     
-     adder1bit dut1(a, b, c_in, sum, c_out);
-     initial begin
-        {a, b, c_in} = 3?b000;
-        #20 {a, b, c_in} = 3?b001;
-        #20 {a, b, c_in} = 3?b010;
-        #20 {a, b, c_in} = 3?b011;
-        #20 {a, b, c_in} = 3?b100;
-        #20 {a, b, c_in} = 3?b101;
-        #20 {a, b, c_in} = 3?b110;
-        #20 {a, b, c_in} = 3?b111;
-        #20;
+   reg   [2:0] valA, valB;
+   wire aGTb, aGEb, aLTb, aLEb, aEQb, aNEb;
+
+   reg   [3:0] count;
+
+// Instantiate the decoder (the identifier is dut, or "device under test").
+   comparator_structural_sefunmi css(valA, valB, aGTb, aGEb, aLTb, aLEb, aEQb, aNEb);
+
+// Test input stimulus, defined as an initial block (procedure).
+   initial begin	// At time t = 0, the decoder is DISABLED and dec_in = 4'b0000.
+      valA = 3'b100;
+      valB = 3'b000;
+      #50;  			// Wait for 50 ns
+    	
+// We can use a loop to avoid long procedures. There are many other options to write test benches easily!
+// NOTE THE DIFFERENCES IN SYNTAX BETWEEN C AND VERILOG!
+
+// With the decoder enabled, the FOR-loop causes dec_in to take in each possible 4-bit value for 50 ns.
+
+      for(count = 0; count < 8; count = count + 1) begin
+         valB = count[3:0];
+         #50;
+      end
+
+      valB = 4'b000;		// Set dec_in = 0000.
+      #50;			// Wait for 50 ns.
+   end
+
 
 
 endmodule

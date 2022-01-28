@@ -1,0 +1,33 @@
+# Compile of comparator_structural_sefunmi.v was successful.
+# Compile of tb_comparator_sefunmi.v failed with 17 errors.
+# 2 compiles, 1 failed with 17 errors.
+# Compile of comparator_structural_sefunmi.v was successful.
+# Compile of tb_comparator_sefunmi.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_comparator_sefunmi
+# vsim -gui work.tb_comparator_sefunmi 
+# Start time: 09:26:01 on Jan 28,2022
+# Loading work.tb_comparator_sefunmi
+# Loading work.comparator_structural_sefunmi
+add wave -position insertpoint sim:/tb_comparator_sefunmi/*
+run -all
+# Compile of comparator_structural_sefunmi.v was successful.
+# Compile of tb_comparator_sefunmi.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of comparator_structural_sefunmi.v was successful.
+# Compile of tb_comparator_sefunmi.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_comparator_sefunmi
+# End time: 09:29:46 on Jan 28,2022, Elapsed time: 0:03:45
+# Errors: 0, Warnings: 8
+# vsim -gui work.tb_comparator_sefunmi 
+# Start time: 09:29:46 on Jan 28,2022
+# Loading work.tb_comparator_sefunmi
+# Loading work.comparator_structural_sefunmi
+add wave -position insertpoint sim:/tb_comparator_sefunmi/*
+run -all
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# End time: 09:34:35 on Jan 28,2022, Elapsed time: 0:04:49
+# Errors: 0, Warnings: 1

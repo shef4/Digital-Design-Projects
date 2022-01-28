@@ -1,23 +1,16 @@
-C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/sn74138_structural.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/sn74138_structural.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module sn74138_structural
-
-Top level modules:
-	sn74138_structural
-
-} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/decoder4to16.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/decoder4to16.v
+C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/decoder4to16.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/decoder4to16.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module decoder4to16
 
 Top level modules:
 	decoder4to16
 
-} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/tb_sn74138.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/tb_sn74138.v
+} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/sn74138_structural.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/sn74138_structural.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module tb_sn74138
+-- Compiling module sn74138_structural
 
 Top level modules:
-	tb_sn74138
+	sn74138_structural
 
 } {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/tb_decoder4to16.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/tb_decoder4to16.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -25,5 +18,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	tb_decoder4to16
+
+} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/tb_sn74138.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Project-1/Part1/tb_sn74138.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_sn74138
+
+Top level modules:
+	tb_sn74138
 
 } {} {}}
