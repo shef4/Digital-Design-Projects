@@ -1,0 +1,8 @@
+{C:/Users/sefun/OneDrive/Documents/Education/VirginiaTech/Junior Year/Spring Semester/Digtial-Design/Assignments/Homework/tb_cmos.v} {1 {vlog -work work -stats=none {C:/Users/sefun/OneDrive/Documents/Education/VirginiaTech/Junior Year/Spring Semester/Digtial-Design/Assignments/Homework/tb_cmos.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_cmos
+
+Top level modules:
+	tb_cmos
+
+} {} {}}
