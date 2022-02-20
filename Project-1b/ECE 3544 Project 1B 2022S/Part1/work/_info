@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+vdecoder4to16
+Z0 !s110 1645385669
+!i10b 1
+!s100 1UVSSO11O;bHWmaaRn[k30
+IKFnJJ6?F;dO8lG2>`Fhna2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1
+Z3 w1645132426
+8C:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/decoder4to16.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/decoder4to16.v
+L0 10
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1645385669.000000
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/decoder4to16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/decoder4to16.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vsn74138_continuous
+R0
+!i10b 1
+!s100 @J4g=NP0Mj?:B^O0^T?Ni2
+IR^H]e2i2d9bM^NY[Rgb>a0
+R1
+R2
+R3
+8C:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/sn74138_continuous.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/sn74138_continuous.v
+L0 11
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/sn74138_continuous.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/sn74138_continuous.v|
+!i113 1
+R6
+R7
+vtb_decoder4to16
+R0
+!i10b 1
+!s100 0m6AjJ>_01<Fif=;Bn1kK3
+I^>gPZ_ELQZ1JC1PdTbJ7H0
+R1
+R2
+R3
+8C:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/tb_decoder4to16.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/tb_decoder4to16.v
+Z8 L0 18
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/tb_decoder4to16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/tb_decoder4to16.v|
+!i113 1
+R6
+R7
+vtb_sn74138
+R0
+!i10b 1
+!s100 2U;]4`5PJT76ikV3emT1i3
+IQD1Z46Q^R1]bbl@`?DD@z3
+R1
+R2
+R3
+8C:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/tb_sn74138.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/tb_sn74138.v
+R8
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/tb_sn74138.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/tb_sn74138.v|
+!i113 1
+R6
+R7
