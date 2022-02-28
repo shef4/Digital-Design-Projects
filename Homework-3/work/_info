@@ -1,0 +1,104 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/sefun/OneDrive/Documents/Education/VirginiaTech/Junior Year/Spring Semester/Digtial-Design/Assignments/Homework
+vproblem1_sefunmi
+Z0 !s110 1646075253
+!i10b 1
+!s100 j7a@<N=7m5ff_^F;2;J2[1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Il0@GdUf9C=zI`]EA?C9A60
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/sefun/Dev/Digital-Design-Projects/Homework-3
+w1646074908
+8C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem1.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem1.v
+!i122 5
+L0 9 21
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1646075253.000000
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem1.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vproblem4_sefunmi
+R0
+!i10b 1
+!s100 Y:dMfZlhN<P_3UcQabf;C1
+R1
+Ic9H_AofEKVBY2W:K@N4PB1
+R2
+R3
+w1646075226
+Z8 8C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem4.v
+Z9 FC:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem4.v
+!i122 7
+Z10 L0 9 8
+R4
+r1
+!s85 0
+31
+R5
+Z11 !s107 C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem4.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem4.v|
+!i113 1
+R6
+R7
+vproblem4_YOURPID
+!s110 1646075166
+!i10b 1
+!s100 O0B=6@22`;Mb:^ONgBOS[2
+R1
+IF_DEF9GFhH[29je4R7gSV1
+R2
+R3
+w1646075162
+R8
+R9
+!i122 4
+R10
+R4
+r1
+!s85 0
+31
+!s108 1646075166.000000
+R11
+R12
+!i113 1
+R6
+R7
+nproblem4_@y@o@u@r@p@i@d
+vtb_problem1_while
+R0
+!i10b 1
+!s100 ^Cnanh]a181_5InX>nPUU1
+R1
+I13czT<PA9DUB7LCd^<VYk1
+R2
+R3
+w1646075245
+8C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem1.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem1.v
+!i122 6
+L0 12 18
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem1.v|
+!i113 1
+R6
+R7

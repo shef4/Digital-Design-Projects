@@ -1,0 +1,22 @@
+C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem1.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_problem1_while
+
+Top level modules:
+	tb_problem1_while
+
+} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem4.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module problem4_sefunmi
+
+Top level modules:
+	problem4_sefunmi
+
+} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem1.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module problem1_sefunmi
+
+Top level modules:
+	problem1_sefunmi
+
+} {} {}}

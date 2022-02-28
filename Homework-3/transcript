@@ -1,0 +1,33 @@
+# Load canceled
+# Compile of problem1.v was successful.
+# Compile of tb_problem1.v was successful.
+# Compile of problem4.v failed with 2 errors.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of problem1.v was successful.
+# Compile of tb_problem1.v was successful.
+# Compile of problem4.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.tb_problem1_while
+# vsim -gui work.tb_problem1_while 
+# Start time: 14:06:46 on Feb 28,2022
+# Loading work.tb_problem1_while
+# ** Error: (vsim-3033) Instantiation of 'problem1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_problem1_while File: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem1.v Line: 18
+#         Searched libraries:
+#             C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/work
+# Error loading design
+# End time: 14:06:47 on Feb 28,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 8
+# Compile of problem1.v was successful.
+# Compile of tb_problem1.v was successful.
+# Compile of problem4.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.tb_problem1_while
+# vsim -gui work.tb_problem1_while 
+# Start time: 14:07:55 on Feb 28,2022
+# Loading work.tb_problem1_while
+# Loading work.problem1_sefunmi
+add wave -position insertpoint sim:/tb_problem1_while/*
+run -all
+# End time: 14:19:52 on Feb 28,2022, Elapsed time: 0:11:57
+# Errors: 0, Warnings: 2
