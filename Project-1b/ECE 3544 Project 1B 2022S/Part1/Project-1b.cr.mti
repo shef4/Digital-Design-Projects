@@ -1,0 +1,29 @@
+{C:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/sn74138_continuous.v} {1 {vlog -work work -stats=none {C:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/sn74138_continuous.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sn74138_continuous
+
+Top level modules:
+	sn74138_continuous
+
+} {} {}} {C:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/decoder4to16.v} {1 {vlog -work work -stats=none {C:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/decoder4to16.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder4to16
+
+Top level modules:
+	decoder4to16
+
+} {} {}} {C:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/tb_sn74138.v} {1 {vlog -work work -stats=none {C:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/tb_sn74138.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_sn74138
+
+Top level modules:
+	tb_sn74138
+
+} {} {}} {C:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/tb_decoder4to16.v} {1 {vlog -work work -stats=none {C:/Users/sefun/Dev/Digital-Design-Projects/Project-1b/ECE 3544 Project 1B 2022S/Part1/tb_decoder4to16.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_decoder4to16
+
+Top level modules:
+	tb_decoder4to16
+
+} {} {}}

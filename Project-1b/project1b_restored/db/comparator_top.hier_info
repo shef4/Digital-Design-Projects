@@ -1,0 +1,39 @@
+|comparator_top
+SW[0] <= comparator_continuous_sefunmi:u2.port1
+SW[1] <= comparator_continuous_sefunmi:u2.port1
+SW[2] <= comparator_continuous_sefunmi:u2.port1
+SW[3] <= comparator_continuous_sefunmi:u2.port0
+SW[4] <= comparator_continuous_sefunmi:u2.port0
+SW[5] <= comparator_continuous_sefunmi:u2.port0
+LED[0] => LED[0].IN1
+LED[1] => LED[1].IN1
+LED[2] => LED[2].IN1
+LED[3] => LED[3].IN1
+LED[4] => LED[4].IN1
+LED[5] => LED[5].IN1
+
+
+|comparator_top|comparator_continuous_sefunmi:u2
+valA[0] => Equal0.IN2
+valA[0] => LessThan0.IN3
+valA[0] => LessThan3.IN5
+valA[1] => Equal0.IN1
+valA[1] => LessThan0.IN2
+valA[1] => LessThan3.IN4
+valA[2] => Equal0.IN0
+valA[2] => LessThan0.IN1
+valA[2] => LessThan3.IN3
+valB[0] => Equal0.IN5
+valB[0] => LessThan0.IN6
+valB[1] => Equal0.IN4
+valB[1] => LessThan0.IN5
+valB[2] => Equal0.IN3
+valB[2] => LessThan0.IN4
+aGTb <= LessThan2.DB_MAX_OUTPUT_PORT_TYPE
+aGEb <= LessThan3.DB_MAX_OUTPUT_PORT_TYPE
+aLTb <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+aLEb <= LessThan1.DB_MAX_OUTPUT_PORT_TYPE
+aEQb <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+aNEb <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
