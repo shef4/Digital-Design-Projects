@@ -10,95 +10,173 @@ z2
 cModel Technology
 dC:/Users/sefun/OneDrive/Documents/Education/VirginiaTech/Junior Year/Spring Semester/Digtial-Design/Assignments/Homework
 vproblem1_sefunmi
-Z0 !s110 1646075253
+Z0 !s110 1646176987
 !i10b 1
-!s100 j7a@<N=7m5ff_^F;2;J2[1
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-Il0@GdUf9C=zI`]EA?C9A60
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dC:/Users/sefun/Dev/Digital-Design-Projects/Homework-3
-w1646074908
+!s100 `>PBi9;g6cNK^@8<^Y37J1
+IXI02ZJ72HYK8K9:o4]JXS2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/sefun/Dev/Digital-Design-Projects/Homework-3
+w1646100391
 8C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem1.v
 FC:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem1.v
-!i122 5
-L0 9 21
-Z4 OV;L;2020.1;71
+L0 9
+Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1646075253.000000
+Z4 !s108 1646176987.000000
 !s107 C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem1.v|
 !i113 1
-Z6 o-work work
-Z7 tCvgOpt 0
+Z5 o-work work
+Z6 tCvgOpt 0
 vproblem4_sefunmi
 R0
 !i10b 1
-!s100 Y:dMfZlhN<P_3UcQabf;C1
+!s100 =JEhn2ZdbYC@gEh>?U]^J1
+I?IIHShQSE:zX1n^A=l?j41
 R1
-Ic9H_AofEKVBY2W:K@N4PB1
 R2
+w1646101005
+Z7 8C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem4.v
+Z8 FC:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem4.v
+L0 9
 R3
-w1646075226
-Z8 8C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem4.v
-Z9 FC:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem4.v
-!i122 7
-Z10 L0 9 8
-R4
 r1
 !s85 0
 31
-R5
-Z11 !s107 C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem4.v|
-Z12 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem4.v|
+R4
+Z9 !s107 C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem4.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem4.v|
 !i113 1
+R5
 R6
-R7
 vproblem4_YOURPID
 !s110 1646075166
 !i10b 1
 !s100 O0B=6@22`;Mb:^ONgBOS[2
-R1
+!s11b Dg1SIo80bB@j0V0VzS_@n1
 IF_DEF9GFhH[29je4R7gSV1
+R1
 R2
-R3
 w1646075162
+R7
 R8
-R9
 !i122 4
-R10
-R4
+L0 9 8
+OV;L;2020.1;71
 r1
 !s85 0
 31
 !s108 1646075166.000000
-R11
-R12
+R9
+R10
 !i113 1
+R5
 R6
-R7
 nproblem4_@y@o@u@r@p@i@d
-vtb_problem1_while
+vsevensegdecoder_cont_sefunmi
 R0
 !i10b 1
-!s100 ^Cnanh]a181_5InX>nPUU1
+!s100 <gGeD5WFXZlg>S:]zNSb51
+I?<94ZQ7XFhQ`YH3iV=KiQ1
 R1
-I13czT<PA9DUB7LCd^<VYk1
 R2
+w1646176971
+8C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem6.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem6.v
+L0 8
 R3
-w1646075245
-8C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem1.v
-FC:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem1.v
-!i122 6
-L0 12 18
-R4
 r1
 !s85 0
 31
+R4
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem6.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem6.v|
+!i113 1
 R5
+R6
+vsevensegdecoder_proc_sefunmi
+R0
+!i10b 1
+!s100 CIK^a2TmA?XKG[e^>@kH^0
+Ih[oMD2MFC@FYYTNXDc`m?0
+R1
+R2
+w1646156983
+8C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem7.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem7.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem7.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem7.v|
+!i113 1
+R5
+R6
+vtb_problem1_for
+Z11 !s110 1646176988
+!i10b 1
+!s100 aCJ677RSzJ1`k=zO`Yibm3
+Ijczz378=z>M4?FnO^BOD31
+R1
+R2
+w1646152813
+8C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem1_for.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem1_for.v
+L0 13
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem1_for.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem1_for.v|
+!i113 1
+R5
+R6
+vtb_problem1_while
+R0
+!i10b 1
+!s100 [CJ75@6NRBVYEU76V6IQA1
+I4J[zfYhm=RmB]@U8iD5h<2
+R1
+R2
+w1646152728
+8C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem1.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem1.v
+Z12 L0 12
+R3
+r1
+!s85 0
+31
+R4
 !s107 C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem1.v|
 !i113 1
+R5
 R6
-R7
+vtb_problem6and7
+R11
+!i10b 1
+!s100 a2e2^fDQKlzlH8bNlJSG[3
+IWmXiNKlA65NVMhRAUR]<20
+R1
+R2
+w1646175944
+8C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem6and7.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem6and7.v
+R12
+R3
+r1
+!s85 0
+31
+!s108 1646176988.000000
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem6and7.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem6and7.v|
+!i113 1
+R5
+R6

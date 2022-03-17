@@ -10,7 +10,6 @@ module problem4_sefunmi(vote, majority);
    input  [4:0] vote;
    output       majority;
 
-   // F = AB + ABC + CDE + BCE + BCD + ACE + ACD + BC?DE + AC?DE
-   assign majority = (vote[0]&vote[1])|(vote[0]&vote[1]&vote[2])|(vote[2]&vote[3]&vote[4])|(vote[1]&vote[2]&vote[4])|(vote[1]&vote[2]&vote[3])|(vote[0]&vote[2]&vote[4])|(vote[0]&vote[2]&vote[3])|(vote[1]&(~vote[2])&vote[3]&vote[4])|(vote[0]&(~vote[2])&vote[3]&vote[4]);
-
+   // F = BCD + CDE + BDE + BCE + ADE + ACE + ACD + ABE + ABD + ABC
+   assign majority = (vote[1]&vote[2]&vote[3])|(vote[2]&vote[3]&vote[4])|(vote[1]&vote[3]&vote[4])|(vote[1]&vote[2]&vote[4])|(vote[0]&vote[3]&vote[4])|(vote[0]&vote[2]&vote[4])|(vote[0]&vote[2]&vote[3])|(vote[0]&vote[1]&vote[4])|(vote[0]&vote[1]&vote[3])|(vote[0]&vote[1]&vote[2]);
 endmodule

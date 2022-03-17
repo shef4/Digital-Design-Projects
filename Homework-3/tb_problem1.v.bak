@@ -12,11 +12,11 @@
 module tb_problem1_while();
 
    reg  [4:0] ins;
-   wire       outs;
+   wire out;
    reg  [5:0] count;
 
-   problem1 dut(ins, outs);
-
+   problem1_sefunmi dut(ins, out);
+   problem4_sefunmi dut(ins, out);
    initial begin
       count = 0;
       while(count < 32) begin

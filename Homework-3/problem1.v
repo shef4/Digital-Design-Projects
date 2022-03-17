@@ -9,21 +9,20 @@
 module problem1_sefunmi(vote, majority);
    input  [4:0] vote;
    output       majority;
-   wire a_b, a_b_c, c_d_e, b_c_e, b_c_d, a_c_e, a_c_d, b_nc_d_e, a_nc_d_e, nc;
+   wire b_c_d, c_d_e, b_d_e, b_c_e, a_d_e, a_c_e, a_c_d, a_b_e, a_b_d, a_b_c;
 
-   // F = AB + ABC + CDE + BCE + BCD + ACE + ACD + BC?DE + AC?DE
-   not(nc, vote[2]);
+   // F = BCD + CDE + BDE + BCE + ADE + ACE + ACD + ABE + ABD + ABC
+   and(b_c_d, vote[1], vote[2], vote[3]);
+   and(c_d_e, vote[2], vote[3], vote[4]);
+   and(b_d_e, vote[1], vote[3], vote[4]);
+   and(b_c_e, vote[1], vote[2], vote[4]);
+   and(a_d_e, vote[0], vote[3], vote[4]);
+   and(a_c_e, vote[0], vote[2], vote[4]);
+   and(a_c_d, vote[0], vote[2], vote[3]);
+   and(a_b_e, vote[0], vote[1], vote[4]);
+   and(a_b_d, vote[0], vote[1], vote[3]);
+   and(a_b_c, vote[0], vote[1], vote[2]);
 
-   and(a_b, vote[0],vote[1]);
-   and(a_b_c, vote[0],vote[1],vote[2]);
-   and(c_d_e, vote[2],vote[3],vote[4]);
-   and(b_c_e, vote[1],vote[2],vote[4]);
-   and(b_c_d, vote[1],vote[2],vote[3]);
-   and(a_c_e, vote[0],vote[2],vote[4]);
-   and(a_c_d, vote[0],vote[2],vote[3]);
-   and(b_nc_d_e, vote[1],nc,vote[3],vote[4]);
-   and(a_nc_d_e, vote[0],nc,vote[3],vote[4]);
-
-   or(majority, a_b, a_b_c, c_d_e, b_c_e, b_c_d, a_c_e, a_c_d, b_nc_d_e, a_nc_d_e);
+   or(majority, b_c_d,c_d_e, b_d_e, b_c_e, a_d_e, a_c_e, a_c_d, a_b_e, a_b_d, a_b_c);
 
 endmodule
