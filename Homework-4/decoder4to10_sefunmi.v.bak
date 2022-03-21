@@ -2,8 +2,8 @@
 module decoder4to10_sefunmi(enable, dec_in, dec_out);
 	input enable;
 	input [3:0] dec_in;
-	output [9:0] dec_out;
-	wire [9:0] outs;
+	output [15:0] dec_out;
+	wire [15:0] outs;
 
 	assign outs = (dec_in == 4'b0000) ? 10'b00000000001 : 
 		      (dec_in == 4'b0001) ? 10'b00000000010 :

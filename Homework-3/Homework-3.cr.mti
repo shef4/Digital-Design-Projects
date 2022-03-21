@@ -5,19 +5,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	tb_problem1_while
 
-} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem1_for.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem1_for.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module tb_problem1_for
-
-Top level modules:
-	tb_problem1_for
-
 } {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem4.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem4.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module problem4_sefunmi
 
 Top level modules:
 	problem4_sefunmi
+
+} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem1_for.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/tb_problem1_for.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_problem1_for
+
+Top level modules:
+	tb_problem1_for
 
 } {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem1.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-3/problem1.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016

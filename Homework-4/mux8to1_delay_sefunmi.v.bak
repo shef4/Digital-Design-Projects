@@ -1,4 +1,4 @@
-`timescale 1ns/100ps
+
 module mux8to1_delay_sefunmi(enable,select, mux_in, mux_out);
 	input enable;
 	input [2:0] select;

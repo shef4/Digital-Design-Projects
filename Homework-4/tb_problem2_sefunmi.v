@@ -1,1 +1,54 @@
+// Time Unit = 1 ns (#10 = 10 ns)
+// Simulation Precision = 100 ps
+`timescale 1ns/100ps 
 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Filename:    tb_decoder4to16.v
+// Author:      Jason Thweatt
+// Date:        02 June 2017
+// Version:     1
+// Description: This file contains a test bench for the 4-to-16 decoder.
+//              We are using it here as an introduction to the ModelSim environment.
+//              The testbench is defined behaviorally. It uses a procedure to define the input
+//              waveform.
+
+// Testbenches don't have arguments. Instead, the values that we want to modify are regs. ANY VALUE
+// THAT IS THE TARGET OF A PROCEDURE MUST BE A REG. The values that we wish to observe are wires.
+
+module tb_problem2_sefunmi();
+   reg  a,b,c,d;
+   wire f;
+   reg   [4:0] count;
+
+// Instantiate the decoder (the identifier is DUT, or Device Under Test)
+
+   problem2_sefunmi DUT1(a,b,c,d,f);
+
+// Test input waveform - defined as an initial block (procedure)
+
+   initial begin
+      a = 1'b0;		// At time t = 0, dec_in = 0000 and the decoder is DISABLED.
+      b = 1'b0;
+      c = 1'b0;
+      d = 1'b0;
+      #20;  			// Wait for 20 ns
+    	
+// We can use a loop to avoid long procedures. There are many other options to write test benches easily!
+// With the decoder enabled, the FOR-loop causes dec_in to take in each possible 4-bit value for 20 ns.
+
+      for(count = 0; count < 16; count = count + 1) begin
+         a = count[3];		
+         b = count[2];
+         c = count[1];
+         d = count[0];
+         #20;
+      end
+
+      a = 1'b0;		
+      b = 1'b0;
+      c = 1'b0;
+      d = 1'b0;
+      #20;			// Wait for 20 ns.
+   end
+
+endmodule
