@@ -1,0 +1,24 @@
+////////////////////////////////////////////////////////////////////////////////
+// Filename:    receive_sefunmi.v
+// Author:      S. Ashiru
+// Date:        03/22/2022
+// Version:     1
+// Description: 
+//
+// Modification History:
+// Date        By   Version  Change Description
+// ============================================
+// 03/22/2022  SA   1        Original
+////////////////////////////////////////////////////////////////////////////////
+module receive_sefunmi(clk, data_in, data_valid, data_out);
+   input        clk;
+   input  [9:0] data_in;
+   output       data_valid;
+   output [8:0] data_out;
+   wire [9:0] reg_data_out;
+   wire odd, even;
+   register10bit_sefunmi U3(clk, data_in, reg_data_out);
+   hc280_sefunmi U2(reg_data_out[8:0], even, odd);
+   assign data_valid = ~(reg_data_out[9]^odd);
+   assign data_out = reg_data_out[8:0];
+endmodule

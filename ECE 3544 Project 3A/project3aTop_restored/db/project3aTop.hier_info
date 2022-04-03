@@ -1,0 +1,167 @@
+|project3aTop
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN1
+SW[6] => SW[6].IN1
+SW[7] => SW[7].IN1
+SW[8] => SW[8].IN2
+SW[9] => SW[9].IN2
+LED[0] << SW[0].DB_MAX_OUTPUT_PORT_TYPE
+LED[1] << SW[1].DB_MAX_OUTPUT_PORT_TYPE
+LED[2] << SW[2].DB_MAX_OUTPUT_PORT_TYPE
+LED[3] << SW[3].DB_MAX_OUTPUT_PORT_TYPE
+LED[4] << SW[4].DB_MAX_OUTPUT_PORT_TYPE
+LED[5] << SW[5].DB_MAX_OUTPUT_PORT_TYPE
+LED[6] << SW[6].DB_MAX_OUTPUT_PORT_TYPE
+LED[7] << SW[7].DB_MAX_OUTPUT_PORT_TYPE
+LED[8] << SW[8].DB_MAX_OUTPUT_PORT_TYPE
+LED[9] << SW[9].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[0] << project3aTest:U0.port1
+HEX0[1] << project3aTest:U0.port1
+HEX0[2] << project3aTest:U0.port1
+HEX0[3] << project3aTest:U0.port1
+HEX0[4] << project3aTest:U0.port1
+HEX0[5] << project3aTest:U0.port1
+HEX0[6] << project3aTest:U0.port1
+HEX1[0] << project3aTest:U1.port1
+HEX1[1] << project3aTest:U1.port1
+HEX1[2] << project3aTest:U1.port1
+HEX1[3] << project3aTest:U1.port1
+HEX1[4] << project3aTest:U1.port1
+HEX1[5] << project3aTest:U1.port1
+HEX1[6] << project3aTest:U1.port1
+HEX2[0] << project3aTest:U2.port1
+HEX2[1] << project3aTest:U2.port1
+HEX2[2] << project3aTest:U2.port1
+HEX2[3] << project3aTest:U2.port1
+HEX2[4] << project3aTest:U2.port1
+HEX2[5] << project3aTest:U2.port1
+HEX2[6] << project3aTest:U2.port1
+HEX3[0] << project3aTest:U3.port1
+HEX3[1] << project3aTest:U3.port1
+HEX3[2] << project3aTest:U3.port1
+HEX3[3] << project3aTest:U3.port1
+HEX3[4] << project3aTest:U3.port1
+HEX3[5] << project3aTest:U3.port1
+HEX3[6] << project3aTest:U3.port1
+HEX4[0] << project3aTest:U4.port1
+HEX4[1] << project3aTest:U4.port1
+HEX4[2] << project3aTest:U4.port1
+HEX4[3] << project3aTest:U4.port1
+HEX4[4] << project3aTest:U4.port1
+HEX4[5] << project3aTest:U4.port1
+HEX4[6] << project3aTest:U4.port1
+HEX5[0] << project3aTest:U5.port1
+HEX5[1] << project3aTest:U5.port1
+HEX5[2] << project3aTest:U5.port1
+HEX5[3] << project3aTest:U5.port1
+HEX5[4] << project3aTest:U5.port1
+HEX5[5] << project3aTest:U5.port1
+HEX5[6] << project3aTest:U5.port1
+
+
+|project3aTop|project3aTest:U0
+ins[0] => HEX.IN0
+ins[0] => HEX.IN0
+ins[0] => HEX.IN0
+ins[0] => HEX[6].DATAIN
+ins[1] => HEX.IN1
+ins[1] => HEX.IN1
+ins[1] => HEX.IN1
+HEX[0] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= ins[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|project3aTop|project3aTest:U1
+ins[0] => HEX.IN0
+ins[0] => HEX.IN0
+ins[0] => HEX.IN0
+ins[0] => HEX[6].DATAIN
+ins[1] => HEX.IN1
+ins[1] => HEX.IN1
+ins[1] => HEX.IN1
+HEX[0] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= ins[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|project3aTop|project3aTest:U2
+ins[0] => HEX.IN0
+ins[0] => HEX.IN0
+ins[0] => HEX.IN0
+ins[0] => HEX[6].DATAIN
+ins[1] => HEX.IN1
+ins[1] => HEX.IN1
+ins[1] => HEX.IN1
+HEX[0] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= ins[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|project3aTop|project3aTest:U3
+ins[0] => HEX.IN0
+ins[0] => HEX.IN0
+ins[0] => HEX.IN0
+ins[0] => HEX[6].DATAIN
+ins[1] => HEX.IN1
+ins[1] => HEX.IN1
+ins[1] => HEX.IN1
+HEX[0] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= ins[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|project3aTop|project3aTest:U4
+ins[0] => HEX.IN0
+ins[0] => HEX.IN0
+ins[0] => HEX.IN0
+ins[0] => HEX[6].DATAIN
+ins[1] => HEX.IN1
+ins[1] => HEX.IN1
+ins[1] => HEX.IN1
+HEX[0] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= ins[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|project3aTop|project3aTest:U5
+ins[0] => HEX.IN0
+ins[0] => HEX.IN0
+ins[0] => HEX.IN0
+ins[0] => HEX[6].DATAIN
+ins[1] => HEX.IN1
+ins[1] => HEX.IN1
+ins[1] => HEX.IN1
+HEX[0] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= HEX.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= ins[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
