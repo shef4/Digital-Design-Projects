@@ -15,6 +15,6 @@ module mux8to1_sefunmi(enable,select, mux_in, mux_out);
 		      (select == 3'b110) ? mux_in[6] : 
 		      (select == 3'b111) ? mux_in[7] :
 		      1'bx;
-	assign mux_out = enable ? outs  : 1'b0;
-endmodule
+	assign mux_out = en ? outs  : 1'b0;
+aendmodule
 	

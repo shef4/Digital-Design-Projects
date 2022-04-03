@@ -5,7 +5,7 @@ module problem5_sefunmi(parity_control,input_word,output_word);
 	input [8:0] output_word;
 	reg parity, tracker, bit_result;
 	assign parity = 1'b1;//0-odd 1-even
-	assign tracker = 1'b1;
+	assign tracker = parity;
 	assign parity = (input_word[0] == 1'b1) ? (~tracker) :
 			(input_word[0] == 1'b0) ? (tracker) :
 		        1'bx;

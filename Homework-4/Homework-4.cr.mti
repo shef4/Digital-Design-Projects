@@ -1,1 +1,121 @@
+C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to16_sefunmi.v {2 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to16_sefunmi.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decoder4to16_sefunmi
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to16_sefunmi.v(8): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to16_sefunmi.v(9): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to16_sefunmi.v(10): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to16_sefunmi.v(11): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to16_sefunmi.v(12): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to16_sefunmi.v(13): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to16_sefunmi.v(14): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to16_sefunmi.v(15): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to16_sefunmi.v(16): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to16_sefunmi.v(17): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to16_sefunmi.v(18): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to16_sefunmi.v(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to16_sefunmi.v(20): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to16_sefunmi.v(21): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to16_sefunmi.v(22): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to16_sefunmi.v(23): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to16_sefunmi.v(25): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 
+Top level modules:
+	decoder4to16_sefunmi
+
+} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/problem4_sefunmi.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/problem4_sefunmi.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module problem4_sefunmi
+
+Top level modules:
+	problem4_sefunmi
+
+} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/problem5_sefunmi.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/problem5_sefunmi.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module problem5_sefunmi
+
+Top level modules:
+	problem5_sefunmi
+
+} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/mux8to1_sefunmi.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/mux8to1_sefunmi.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux8to1_sefunmi
+
+Top level modules:
+	mux8to1_sefunmi
+
+} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/tb_problem1_sefunmi.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/tb_problem1_sefunmi.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_problem1_sefunmi
+
+Top level modules:
+	tb_problem1_sefunmi
+
+} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/tb_problem2_sefunmi.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/tb_problem2_sefunmi.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_problem2_sefunmi
+
+Top level modules:
+	tb_problem2_sefunmi
+
+} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/tb_problem3_sefunmi.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/tb_problem3_sefunmi.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_problem3_sefunmi
+
+Top level modules:
+	tb_problem3_sefunmi
+
+} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/tb_problem4_sefunmi.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/tb_problem4_sefunmi.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_problem4_sefunmi
+
+Top level modules:
+	tb_problem4_sefunmi
+
+} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/tb_problem5_sefunmi.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/tb_problem5_sefunmi.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_problem5_sefunmi
+
+Top level modules:
+	tb_problem5_sefunmi
+
+} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/mux8to1_delay_sefunmi.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/mux8to1_delay_sefunmi.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux8to1_delay_sefunmi
+
+Top level modules:
+	mux8to1_delay_sefunmi
+
+} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to10_sefunmi.v {2 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to10_sefunmi.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decoder4to10_sefunmi
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to10_sefunmi.v(8): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to10_sefunmi.v(9): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to10_sefunmi.v(10): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to10_sefunmi.v(11): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to10_sefunmi.v(12): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to10_sefunmi.v(13): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to10_sefunmi.v(14): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to10_sefunmi.v(15): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to10_sefunmi.v(16): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to10_sefunmi.v(17): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to10_sefunmi.v(18): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/decoder4to10_sefunmi.v(20): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	decoder4to10_sefunmi
+
+} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/problem1_sefunmi.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/problem1_sefunmi.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module problem1_sefunmi
+
+Top level modules:
+	problem1_sefunmi
+
+} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/problem2_sefunmi.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-4/problem2_sefunmi.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module problem2_sefunmi
+
+Top level modules:
+	problem2_sefunmi
+
+} {} {}}

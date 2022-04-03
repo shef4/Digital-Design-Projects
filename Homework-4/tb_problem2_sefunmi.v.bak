@@ -15,14 +15,14 @@
 // Testbenches don't have arguments. Instead, the values that we want to modify are regs. ANY VALUE
 // THAT IS THE TARGET OF A PROCEDURE MUST BE A REG. The values that we wish to observe are wires.
 
-module tb_problem1_sefunmi();
+module tb_decoder4to16();
    reg  a,b,c,d;
    wire f;
    reg   [4:0] count;
 
 // Instantiate the decoder (the identifier is DUT, or Device Under Test)
 
-   problem1_sefunmi DUT1(a,b,c,d,f);
+   problem2_sefunmi DUT1(a,b,c,d,f);
 
 // Test input waveform - defined as an initial block (procedure)
 

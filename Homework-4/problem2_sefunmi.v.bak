@@ -9,5 +9,5 @@ module problem2_sefunmi(a,b,c,d,f);
 	assign neg_a = ~a;
 	assign aor1or0 = {1'b1,a,neg_a,1'b1,1'b0,neg_a, a,1'b0};
 	assign bcd = {b,c,d};
-	mux8to1_sefunmi DUT1(en,bcd,aor1or0, f);
+	mux8to1 DUT1(en,bcd,aor1or0, f);
 endmodule
