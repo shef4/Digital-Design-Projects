@@ -1,5 +1,5 @@
 Analysis & Synthesis report for project3aTop
-Sun Apr 03 16:19:17 2022
+Mon Apr 04 19:29:04 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -14,9 +14,16 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Post-Synthesis Netlist Statistics for Top Partition
- 10. Elapsed Time Per Partition
- 11. Analysis & Synthesis Messages
+  9. Port Connectivity Checks: "hc280_sefunmi:PC3Rec"
+ 10. Port Connectivity Checks: "hc280_sefunmi:PC2Rec"
+ 11. Port Connectivity Checks: "hc280_sefunmi:PC1Rec"
+ 12. Port Connectivity Checks: "bit_corrupter:BC"
+ 13. Port Connectivity Checks: "hc280_sefunmi:PC3Trans"
+ 14. Port Connectivity Checks: "hc280_sefunmi:PC2Trans"
+ 15. Port Connectivity Checks: "hc280_sefunmi:PC1Trans"
+ 16. Post-Synthesis Netlist Statistics for Top Partition
+ 17. Elapsed Time Per Partition
+ 18. Analysis & Synthesis Messages
 
 
 
@@ -42,7 +49,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Apr 03 16:19:17 2022       ;
+; Analysis & Synthesis Status     ; Successful - Mon Apr 04 19:29:04 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; project3aTop                                ;
 ; Top-level Entity Name           ; project3aTop                                ;
@@ -170,8 +177,10 @@ refer to the applicable agreement for further details.
 +----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                         ; Library ;
 +----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------------+---------+
+; hc280_sefunmi.v                  ; yes             ; User Verilog HDL File  ; C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/hc280_sefunmi.v ;         ;
 ; project3aTop.v                   ; yes             ; User Verilog HDL File  ; C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTop.v  ;         ;
 ; project3aTest.v                  ; yes             ; User Verilog HDL File  ; C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTest.v ;         ;
+; bit_corrupter.v                  ; yes             ; User Verilog HDL File  ; C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/bit_corrupter.v ;         ;
 +----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------------+---------+
 
 
@@ -182,10 +191,10 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-------------+
 ; Estimate of Logic utilization (ALMs needed) ; 8           ;
 ;                                             ;             ;
-; Combinational ALUT usage for logic          ; 15          ;
+; Combinational ALUT usage for logic          ; 16          ;
 ;     -- 7 input functions                    ; 0           ;
 ;     -- 6 input functions                    ; 0           ;
-;     -- 5 input functions                    ; 0           ;
+;     -- 5 input functions                    ; 1           ;
 ;     -- 4 input functions                    ; 0           ;
 ;     -- <=3 input functions                  ; 15          ;
 ;                                             ;             ;
@@ -195,10 +204,10 @@ refer to the applicable agreement for further details.
 ;                                             ;             ;
 ; Total DSP Blocks                            ; 0           ;
 ;                                             ;             ;
-; Maximum fan-out node                        ; SW[8]~input ;
+; Maximum fan-out node                        ; SW[0]~input ;
 ; Maximum fan-out                             ; 6           ;
-; Total fan-out                               ; 144         ;
-; Average fan-out                             ; 1.04        ;
+; Total fan-out                               ; 149         ;
+; Average fan-out                             ; 1.06        ;
 +---------------------------------------------+-------------+
 
 
@@ -207,12 +216,13 @@ refer to the applicable agreement for further details.
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------+---------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name            ; Entity Name   ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------+---------------+--------------+
-; |project3aTop              ; 15 (0)              ; 0 (0)                     ; 0                 ; 0          ; 62   ; 0            ; |project3aTop                  ; project3aTop  ; work         ;
+; |project3aTop              ; 16 (1)              ; 0 (0)                     ; 0                 ; 0          ; 62   ; 0            ; |project3aTop                  ; project3aTop  ; work         ;
 ;    |project3aTest:U0|      ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |project3aTop|project3aTest:U0 ; project3aTest ; work         ;
 ;    |project3aTest:U1|      ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |project3aTop|project3aTest:U1 ; project3aTest ; work         ;
 ;    |project3aTest:U2|      ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |project3aTop|project3aTest:U2 ; project3aTest ; work         ;
 ;    |project3aTest:U3|      ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |project3aTop|project3aTest:U3 ; project3aTest ; work         ;
-;    |project3aTest:U4|      ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |project3aTop|project3aTest:U4 ; project3aTest ; work         ;
+;    |project3aTest:U4|      ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |project3aTop|project3aTest:U4 ; project3aTest ; work         ;
+;    |project3aTest:U5|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |project3aTop|project3aTest:U5 ; project3aTest ; work         ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------+---------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -232,19 +242,89 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "hc280_sefunmi:PC3Rec"                                                                        ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; data_in[8..4] ; Input  ; Info     ; Stuck at GND                                                                        ;
+; even          ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "hc280_sefunmi:PC2Rec"                                                                        ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; data_in[8..4] ; Input  ; Info     ; Stuck at GND                                                                        ;
+; even          ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "hc280_sefunmi:PC1Rec"                                                                        ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; data_in[8..4] ; Input  ; Info     ; Stuck at GND                                                                        ;
+; even          ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bit_corrupter:BC"                                                                             ;
++----------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port           ; Type   ; Severity ; Details                                                                             ;
++----------------+--------+----------+-------------------------------------------------------------------------------------+
+; output_word[1] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "hc280_sefunmi:PC3Trans"                                                                      ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; data_in[8..4] ; Input  ; Info     ; Stuck at GND                                                                        ;
+; even          ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "hc280_sefunmi:PC2Trans"                                                                      ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; data_in[8..4] ; Input  ; Info     ; Stuck at GND                                                                        ;
+; even          ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "hc280_sefunmi:PC1Trans"                                                                      ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                             ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+; data_in[8..4] ; Input  ; Info     ; Stuck at GND                                                                        ;
+; even          ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 35                          ;
-;     normal            ; 35                          ;
+; arriav_lcell_comb     ; 36                          ;
+;     normal            ; 36                          ;
 ;         1 data inputs ; 20                          ;
 ;         2 data inputs ; 15                          ;
+;         5 data inputs ; 1                           ;
 ; boundary_port         ; 62                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 2.00                        ;
-; Average LUT depth     ; 1.89                        ;
+; Average LUT depth     ; 1.87                        ;
 +-----------------------+-----------------------------+
 
 
@@ -253,7 +333,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -263,29 +343,35 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sun Apr 03 16:19:05 2022
+    Info: Processing started: Mon Apr 04 19:28:45 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off project3aTop -c project3aTop
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file hc280_sefunmi.v
+    Info (12023): Found entity 1: hc280_sefunmi File: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/hc280_sefunmi.v Line: 23
 Info (12021): Found 1 design units, including 1 entities, in source file tb_project3a.v
     Info (12023): Found entity 1: tb_project3a File: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/tb_project3a.v Line: 11
 Info (12021): Found 1 design units, including 1 entities, in source file project3atop.v
     Info (12023): Found entity 1: project3aTop File: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTop.v Line: 16
 Info (12021): Found 1 design units, including 1 entities, in source file project3atest.v
     Info (12023): Found entity 1: project3aTest File: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTest.v Line: 12
+Info (12021): Found 1 design units, including 1 entities, in source file bit_corrupter.v
+    Info (12023): Found entity 1: bit_corrupter File: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/bit_corrupter.v Line: 10
 Info (12127): Elaborating entity "project3aTop" for the top level hierarchy
 Info (12128): Elaborating entity "project3aTest" for hierarchy "project3aTest:U0" File: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTop.v Line: 31
+Info (12128): Elaborating entity "hc280_sefunmi" for hierarchy "hc280_sefunmi:PC1Trans" File: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTop.v Line: 57
+Info (12128): Elaborating entity "bit_corrupter" for hierarchy "bit_corrupter:BC" File: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTop.v Line: 62
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 77 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 78 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 10 input pins
     Info (21059): Implemented 52 output pins
-    Info (21061): Implemented 15 logic cells
+    Info (21061): Implemented 16 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4813 megabytes
-    Info: Processing ended: Sun Apr 03 16:19:18 2022
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:26
+    Info: Peak virtual memory: 4812 megabytes
+    Info: Processing ended: Mon Apr 04 19:29:04 2022
+    Info: Elapsed time: 00:00:19
+    Info: Total CPU time (on all processors): 00:00:24
 
 

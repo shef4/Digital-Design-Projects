@@ -21,8 +21,6 @@ module project3aTop(SW, LED, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5);
 	wire [6:0] bc_output;
 	wire [8:0] pcinput_1t,pcinput_2t,pcinput_3t, pcinput_1r,pcinput_2r,pcinput_3r;
 // This should allow you to see the values of the switches on the LEDs.
-// YOU WILL NEED TO CHANGE THIS TO SATISFY THE SPECIFICATION REQUIREMENTS
-   assign LED = SW;
 
 // This maps certain switches to the seven-segment display inputs.
 // Use this as an example of instantiating in the top-level module, and as a
@@ -60,6 +58,7 @@ module project3aTop(SW, LED, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5);
 	hc280_sefunmi PC2Trans(pcinput_2t, even2t, odd2t);
 	hc280_sefunmi PC3Trans(pcinput_3t, even3t, odd3t);
 	
+	assign LED[6:0] = SW[6:0];
 	bit_corrupter BC(SW[9:7], SW[6:0], bc_output);
 	
 	assign pcinput_1r = {4'b0000,bc_output[6],bc_output[5],bc_output[4],bc_output[3]};
@@ -74,3 +73,4 @@ module project3aTop(SW, LED, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5);
 	xor XOR3(LED[9], odd3r, odd3t);
 
 endmodule
+

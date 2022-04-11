@@ -1,0 +1,21 @@
+Quartus Prime Archive log --	C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTop_sefunmi.qarlog
+
+Archive:	C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTop_sefunmi.qar
+Date:		Mon Apr 04 19:33:43 2022
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/assignment_defaults.qdf
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/bit_corrupter.v
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/hc280_sefunmi.v
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTest.v
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTop.SDC
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTop.qpf
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTop.qsf
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTop.v
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTop_assignment_defaults.qdf
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/tb_project3a.v
+	======= Total: 10 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

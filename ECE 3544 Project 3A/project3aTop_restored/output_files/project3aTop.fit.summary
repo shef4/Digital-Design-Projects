@@ -1,11 +1,11 @@
-Fitter Status : Successful - Sun Apr 03 16:19:51 2022
+Fitter Status : Successful - Mon Apr 04 19:30:06 2022
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : project3aTop
 Top-level Entity Name : project3aTop
 Family : Cyclone V
 Device : 5CSEMA5F31C6
 Timing Models : Final
-Logic utilization (in ALMs) : 8 / 32,070 ( < 1 % )
+Logic utilization (in ALMs) : 9 / 32,070 ( < 1 % )
 Total registers : 0
 Total pins : 62 / 457 ( 14 % )
 Total virtual pins : 0

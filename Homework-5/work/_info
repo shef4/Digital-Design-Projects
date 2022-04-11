@@ -1,0 +1,136 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/testing files
+vclk
+Z0 !s110 1649536681
+!i10b 1
+!s100 9B?1Khi7>fg6kHL^G_`hJ3
+I`cBVMT>z_R5g:ooJ6T;0_3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/sefun/Dev/Digital-Design-Projects/Homework-5
+w1497104838
+8C:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/clk.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/clk.v
+L0 25
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1649536681.000000
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/clk.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/clk.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vpay_phone_sefunmi
+R0
+!i10b 1
+!s100 @]9UJYza]IW=19:9Qh6282
+IOOdiRkC]1Xd<eOYdoT@990
+R1
+R2
+w1649536605
+8C:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/pay_phone_sefunmi.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/pay_phone_sefunmi.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/pay_phone_sefunmi.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/pay_phone_sefunmi.v|
+!i113 1
+R5
+R6
+vproblem2_sefunmi
+R0
+!i10b 1
+!s100 Gi@k6ML?OhDfojKM3NaFh3
+IV?`3;:4UWOQEc44lPXM292
+R1
+R2
+w1649536471
+8C:\Users\sefun\Dev\Digital-Design-Projects\Homework-5\problem2_sefunmi.v
+FC:\Users\sefun\Dev\Digital-Design-Projects\Homework-5\problem2_sefunmi.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\sefun\Dev\Digital-Design-Projects\Homework-5\problem2_sefunmi.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\sefun\Dev\Digital-Design-Projects\Homework-5\problem2_sefunmi.v|
+!i113 1
+R5
+R6
+vproblem3_sefunmi
+R0
+!i10b 1
+!s100 Lda:hf?DJn@V@chS:7<^X2
+IT2BE8NHH67D3PQ9c4ln1;2
+R1
+R2
+w1649536589
+8C:\Users\sefun\Dev\Digital-Design-Projects\Homework-5\problem3_sefunmi.v
+FC:\Users\sefun\Dev\Digital-Design-Projects\Homework-5\problem3_sefunmi.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\sefun\Dev\Digital-Design-Projects\Homework-5\problem3_sefunmi.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\sefun\Dev\Digital-Design-Projects\Homework-5\problem3_sefunmi.v|
+!i113 1
+R5
+R6
+vtb_pay_phone_sefunmi
+R0
+!i10b 1
+!s100 O?Sa9^E_C6>>QHA2>^oU@1
+IJCk=IYkoZjgEUX_On:EZ@3
+R1
+R2
+w1649536347
+8C:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/tb_pay_phone_sefunmi.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/tb_pay_phone_sefunmi.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/tb_pay_phone_sefunmi.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/tb_pay_phone_sefunmi.v|
+!i113 1
+R5
+R6
+vtb_problem3_sefunmi
+R0
+!i10b 1
+!s100 @Gef2GYU5K_[WC=:S3`l73
+IzFPW4H`VXEWa^kSC=6]eD0
+R1
+R2
+w1649535375
+8C:\Users\sefun\Dev\Digital-Design-Projects\Homework-5\tb_problem3_sefunmi.v
+FC:\Users\sefun\Dev\Digital-Design-Projects\Homework-5\tb_problem3_sefunmi.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\sefun\Dev\Digital-Design-Projects\Homework-5\tb_problem3_sefunmi.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\sefun\Dev\Digital-Design-Projects\Homework-5\tb_problem3_sefunmi.v|
+!i113 1
+R5
+R6

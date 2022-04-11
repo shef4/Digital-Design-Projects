@@ -1,0 +1,117 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/simulation/modelsim
+vbit_corrupter
+Z0 !s110 1649113739
+!i10b 1
+!s100 Y]njLiJeFn>:Y<Yfz7SjQ1
+IC3]`c6C9>LCmZWnim93F;1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/testing files
+w1649113736
+8C:\Users\sefun\Dev\Digital-Design-Projects\ECE 3544 Project 3A\project3aTop_restored\bit_corrupter.v
+FC:\Users\sefun\Dev\Digital-Design-Projects\ECE 3544 Project 3A\project3aTop_restored\bit_corrupter.v
+L0 10
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1649113739.000000
+!s107 C:\Users\sefun\Dev\Digital-Design-Projects\ECE 3544 Project 3A\project3aTop_restored\bit_corrupter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\sefun\Dev\Digital-Design-Projects\ECE 3544 Project 3A\project3aTop_restored\bit_corrupter.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vhc280_sefunmi
+R0
+!i10b 1
+!s100 GWGec7dRIo54zi1SKf@YO1
+IVQX8f13UQ3@636mY>9hXY3
+R1
+R2
+w1649018536
+8C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/hc280_sefunmi.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/hc280_sefunmi.v
+L0 23
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/hc280_sefunmi.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/hc280_sefunmi.v|
+!i113 1
+R5
+R6
+vproject3aTest
+R0
+!i10b 1
+!s100 hEhfB2J@m6Oh36GWa`=aB3
+I`@C9NH5@acTlE@Qmig3]I3
+R1
+R2
+w1508973581
+8C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTest.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTest.v
+L0 12
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTest.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTest.v|
+!i113 1
+R5
+R6
+nproject3a@test
+vproject3aTop
+R0
+!i10b 1
+!s100 @ReWCkUa;YCU1N[0BWbJE3
+IB=eX2>nNRA419MF;Q:S2d1
+R1
+R2
+w1649111189
+8C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTop.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTop.v
+L0 16
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTop.v|
+!i113 1
+R5
+R6
+nproject3a@top
+vtb_project3a
+!s110 1649113740
+!i10b 1
+!s100 2lJBP2<E]<5<afmSkikOS3
+IfZHNG3F<YIkBI7H^3<B5Q0
+R1
+R2
+w1649112210
+8C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/tb_project3a.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/tb_project3a.v
+L0 11
+R3
+r1
+!s85 0
+31
+!s108 1649113740.000000
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/tb_project3a.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/tb_project3a.v|
+!i113 1
+R5
+R6

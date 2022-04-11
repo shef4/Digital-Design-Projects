@@ -1,0 +1,22 @@
+// Date:        04/03/2022
+// Version:     1
+// Description: This module is a behavioral description of a single bit corruptor
+//
+// Modification History:
+// Date        By   Version  Change Description
+// ============================================
+// 04/03/2022  SA   1        Original
+////////////////////////////////////////////////////////////////////////////////
+module bit_corrupter (index, input_word, output_word);
+   input  [2:0] index;
+   input  [6:0] input_word;
+   output [6:0] output_word; 
+   assign output_word = (index == 3'b000) ? input_word:
+			(index == 3'b001) ? {input_word[6:1],~input_word[0]}:
+			(index == 3'b010) ? {input_word[6:2],~input_word[1],input_word[0]}:
+			(index == 3'b011) ? {input_word[6:3],~input_word[2],input_word[1:0]}:
+			(index == 3'b100) ? {input_word[6:4],~input_word[3],input_word[2:0]}:
+			(index == 3'b101) ? {input_word[6:5],~input_word[4],input_word[3:0]}:
+			(index == 3'b110) ? {input_word[6],~input_word[5],input_word[4:0]}:
+			(index == 3'b111) ? {~input_word[6],input_word[5:0]}:7'bxxxxxxx;
+endmodule
