@@ -1,0 +1,43 @@
+////////////////////////////////////////////////////////////////////////////////
+// Filename:    hc280_sefunmi.v
+// Author:      S. Ashiru
+// Date:        03/22/2022
+// Version:     1
+// Description: This module is a behavioral description of the 74HC280.
+//              A 9-bit odd/even parity generator/checker. 
+//
+// 		This module has one inputs and two output:
+//              - data_in: The 9-bit data stream. (input)
+//              - even:  An active-high signal to identiy parity is even.(output)
+//              - odd:  An active-high signal to identiy parity is odd.(output)
+//
+//              This module has two parameters:
+//              - CLRDEL: Delay from clear asserted to output valid
+//              - CLKDEL: Delay from clk rising to output valid
+//
+// Modification History:
+// Date        By   Version  Change Description
+// ============================================
+// 03/22/2022  SA   1        Original
+////////////////////////////////////////////////////////////////////////////////
+`timescale 1ns/100ps
+module hc280_sefunmi (data_in, even, odd);
+   input [8:0] data_in;		// Active-high counter enable.
+   output even, odd;		// 9-bit counter output
+   wire data_in012,data_in345,data_in678, data_in012_neg,data_in345_neg,data_in678_neg;
+
+   assign data_in012 = ~(((~data_in[0])&(data_in[1])&(data_in[2]))|((data_in[0])&(~data_in[1])&(data_in[2]))|((data_in[0])&(data_in[1])&(~data_in[2]))|((~data_in[0])&(~data_in[1])&(~data_in[2])));
+   assign data_in345 = ~(((~data_in[3])&(data_in[4])&(data_in[5]))|((data_in[3])&(~data_in[4])&(data_in[5]))|((data_in[3])&(data_in[4])&(~data_in[5]))|((~data_in[3])&(~data_in[4])&(~data_in[5])));
+   assign data_in678 = ~(((~data_in[6])&(data_in[7])&(data_in[8]))|((data_in[6])&(~data_in[7])&(data_in[8]))|((data_in[6])&(data_in[7])&(~data_in[8]))|((~data_in[6])&(~data_in[7])&(~data_in[8])));
+   assign data_in012_neg = ~data_in012;
+   assign data_in345_neg = ~data_in345;
+   assign data_in678_neg = ~data_in678;
+
+
+   assign odd = ~(((data_in012_neg)&(data_in345)&(data_in678))|((data_in012)&(data_in345_neg)&(data_in678))|((data_in012)&(data_in345)&(data_in678_neg))|((data_in012_neg)&(data_in345_neg)&(data_in678_neg)));
+   assign even =  ~(((data_in012)&(data_in345_neg)&(data_in678_neg))|((data_in012_neg)&(data_in345)&(data_in678_neg))|((data_in012_neg)&(data_in345_neg)&(data_in678))|((data_in012)&(data_in345)&(data_in678)));
+   specify
+   	(data_in *> odd) = (20, 20);
+  	(data_in *> even) = (20, 20);
+   endspecify
+endmodule

@@ -1,0 +1,29 @@
+{C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/hc280_sefunmi.v} {1 {vlog -work work -stats=none {C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/hc280_sefunmi.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module hc280_sefunmi
+
+Top level modules:
+	hc280_sefunmi
+
+} {} {}} {C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTest.v} {1 {vlog -work work -stats=none {C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/project3aTest.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module project3aTest
+
+Top level modules:
+	project3aTest
+
+} {} {}} {C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/bit_corrupter.v} {1 {vlog -work work -stats=none {C:\Users\sefun\Dev\Digital-Design-Projects\ECE 3544 Project 3A\project3aTop_restored\bit_corrupter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module bit_corrupter
+
+Top level modules:
+	bit_corrupter
+
+} {} {}} {C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/tb_project3a.v} {1 {vlog -work work -stats=none {C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 3A/project3aTop_restored/tb_project3a.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_project3a
+
+Top level modules:
+	tb_project3a
+
+} {} {}}
