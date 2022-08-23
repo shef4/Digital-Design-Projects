@@ -1,0 +1,11 @@
+module problem3_sefunmi(clock, reset_n, count, state);
+   input        clock;     // System clock;
+   input        reset_n;   // Asynchronous active-low reset;
+   input        count;     // Synchronous active-high count enable
+   output [3:0] state;     // Counter state
+   reg    [3:0] state;
+
+   always @ (posedge clock) 
+   	problem2_sefunmi ctr2(clock, reset_n, 1'b0, count, 3'b0000, state, carry);
+
+endmodule

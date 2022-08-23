@@ -1,0 +1,22 @@
+
+module problem2_sefunmi(clock, reset_n, load, count, ins, state, carry);
+   input        clock;     // System clock
+   input        reset_n;   // Asynchronous active-low reset
+   input        load;      // Synchronous active-high load enable
+   input        count      // Synchronous active-high count enable
+   input  [3:0] ins;       // Parallel load inputs
+   output [3:0] state;     // Counter state
+   output       carry;     // Counter carry-out
+   reg    [3:0] state;
+   reg		carry;
+
+   always @ (posedge clock) 
+     if(reset_n == 1 || ((count == 1)&&(state == 4'd15)))	state <= 4'd0;
+     else if (load == 1)					state <= ins;
+     else if (count == 1)					state <= state + 1;
+     else							state <= state;
+
+   always @ (state or count)
+     if ((count == 1)&&(state == 4'd15))	carry = 1;
+     else					carry = 0;
+endmodule

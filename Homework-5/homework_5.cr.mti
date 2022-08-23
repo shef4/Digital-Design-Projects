@@ -1,23 +1,16 @@
-C:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/pay_phone_sefunmi.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/pay_phone_sefunmi.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module pay_phone_sefunmi
-
-Top level modules:
-	pay_phone_sefunmi
-
-} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/problem2_sefunmi.v {1 {vlog -work work -stats=none {C:\Users\sefun\Dev\Digital-Design-Projects\Homework-5\problem2_sefunmi.v}
+C:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/problem2_sefunmi.v {1 {vlog -work work -stats=none {C:\Users\sefun\Dev\Digital-Design-Projects\Homework-5\problem2_sefunmi.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module problem2_sefunmi
 
 Top level modules:
 	problem2_sefunmi
 
-} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/clk.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/clk.v
+} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/pay_phone_sefunmi.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/pay_phone_sefunmi.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module clk
+-- Compiling module pay_phone_sefunmi
 
 Top level modules:
-	clk
+	pay_phone_sefunmi
 
 } {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/problem3_sefunmi.v {1 {vlog -work work -stats=none {C:\Users\sefun\Dev\Digital-Design-Projects\Homework-5\problem3_sefunmi.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -25,6 +18,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	problem3_sefunmi
+
+} {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/clk.v {1 {vlog -work work -stats=none C:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/clk.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clk
+
+Top level modules:
+	clk
 
 } {} {}} C:/Users/sefun/Dev/Digital-Design-Projects/Homework-5/tb_problem3_sefunmi.v {1 {vlog -work work -stats=none {C:\Users\sefun\Dev\Digital-Design-Projects\Homework-5\tb_problem3_sefunmi.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016

@@ -1,0 +1,143 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/simulation/modelsim
+vbuttonpressed
+Z1 !s110 1651008031
+!i10b 1
+!s100 ?zHoMV`iHbEJUz3jd]ho?0
+I>G4UHcbQ=i[HAg_LK4XWY0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1572444132
+8C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/buttonpressed.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/buttonpressed.v
+L0 12
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1651008031.000000
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/buttonpressed.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored|C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/buttonpressed.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored}
+Z7 tCvgOpt 0
+vcounter_clk_sefunmi
+R1
+!i10b 1
+!s100 omicTIG^4YJ8C]6i[mM?m0
+IIOd31:dC?=]_W[STn9MlF0
+R2
+R0
+w1650944054
+8C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/counter_clk_sefunmi.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/counter_clk_sefunmi.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/counter_clk_sefunmi.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored|C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/counter_clk_sefunmi.v|
+!i113 1
+R5
+R6
+R7
+vdecoder4to10_sefunmi
+R1
+!i10b 1
+!s100 2KMIQgjzJPSFTD_00ZhjW1
+I0kNY>UoQ@RLRDo1JabR7Q1
+R2
+R0
+w1650918758
+8C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/decoder4to10_sefunmi.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/decoder4to10_sefunmi.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/decoder4to10_sefunmi.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored|C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/decoder4to10_sefunmi.v|
+!i113 1
+R5
+R6
+R7
+vfsm_sefunmi
+R1
+!i10b 1
+!s100 7P06iN7VXcZTZZdlK2n0U1
+IaAZ>mc`D7PFR;zLF[2N7M2
+R2
+R0
+w1651004583
+8C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/fsm_sefunmi.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/fsm_sefunmi.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1651008030.000000
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/fsm_sefunmi.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored|C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/fsm_sefunmi.v|
+!i113 1
+R5
+R6
+R7
+vhex_display
+R1
+!i10b 1
+!s100 @H4m]BncZ^BnmAgeIgjdA2
+IJiZWPNT4OomAZn>aVWWD^1
+R2
+R0
+w1650918747
+8C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/hex_display.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/hex_display.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/hex_display.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored|C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/hex_display.v|
+!i113 1
+R5
+R6
+R7
+vproject4Top
+!s110 1651008032
+!i10b 1
+!s100 @g^@6gX10XK=k7kzXn1Vz3
+I:mozP>9l98_]mH]6H@7<W2
+R2
+R0
+w1651005712
+8C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/project4Top.v
+FC:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/project4Top.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1651008032.000000
+!s107 C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/project4Top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored|C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/project4Top.v|
+!i113 1
+R5
+R6
+R7
+nproject4@top

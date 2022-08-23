@@ -1,0 +1,36 @@
+
+State Machine - |project4Top|fsm_sefunmi:FSM|state
+Name state.dcs state.dcg state.dcr1 state.edc state.ucs state.ucg state.ucr state.euc state.dcr2 
+state.euc 0 0 0 0 0 0 0 0 0 
+state.ucr 0 0 0 0 0 0 1 1 0 
+state.ucg 0 0 0 0 0 1 0 1 0 
+state.ucs 0 0 0 0 1 0 0 1 0 
+state.edc 0 0 0 1 0 0 0 1 0 
+state.dcr1 0 0 1 0 0 0 0 1 0 
+state.dcg 0 1 0 0 0 0 0 1 0 
+state.dcs 1 0 0 0 0 0 0 1 0 
+state.dcr2 0 0 0 0 0 0 0 1 1 
+
+State Machine - |project4Top|buttonpressed:SBP|state
+Name state.BUTTON_FREE state.BUTTON_RELEASED state.BUTTON_PRESSED 
+state.BUTTON_FREE 0 0 0 
+state.BUTTON_PRESSED 1 0 1 
+state.BUTTON_RELEASED 1 1 0 
+
+State Machine - |project4Top|buttonpressed:ABP|state
+Name state.BUTTON_FREE state.BUTTON_RELEASED state.BUTTON_PRESSED 
+state.BUTTON_FREE 0 0 0 
+state.BUTTON_PRESSED 1 0 1 
+state.BUTTON_RELEASED 1 1 0 
+
+State Machine - |project4Top|buttonpressed:MBP|state
+Name state.BUTTON_FREE state.BUTTON_RELEASED state.BUTTON_PRESSED 
+state.BUTTON_FREE 0 0 0 
+state.BUTTON_PRESSED 1 0 1 
+state.BUTTON_RELEASED 1 1 0 
+
+State Machine - |project4Top|buttonpressed:RBP|state
+Name state.BUTTON_FREE state.BUTTON_RELEASED state.BUTTON_PRESSED 
+state.BUTTON_FREE 0 0 0 
+state.BUTTON_PRESSED 1 0 1 
+state.BUTTON_RELEASED 1 1 0 

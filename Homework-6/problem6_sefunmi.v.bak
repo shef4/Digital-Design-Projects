@@ -1,0 +1,7 @@
+
+module problem6_sefunmi(clock, reset_n, enable, state, out);
+   input        clock;     // System clock
+   input        reset_n;   // Asynchronous active-low reset
+   input        enable;    // Synchronous active-high count enable
+   output [?:0] state;     // Counter state.
+   output       out;       // Output pulse.

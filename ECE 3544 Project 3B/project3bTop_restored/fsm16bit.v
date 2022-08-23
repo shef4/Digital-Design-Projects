@@ -21,8 +21,6 @@ module fsm16bit(clock, reset, enable, check, mode, direction, value, count);
 
 	reg    [15:0] counter_state;
 	
-// MODIFY THE STATE MACHINE ALWAYS BLOCK APPROPRIATELY TO IMPLEMENT YOUR VERSION OF THE FSM.
-// UPDATE THE COMMENTS ACCORDINGLY. DELETE THESE COMMENTS IN ALL CAPS.
 	
 // STATE MACHINE: This always block represents sequential logic, so it uses non-blocking assignments.
 // It is sensitized to appropriate edges of the clock input and the clear input.

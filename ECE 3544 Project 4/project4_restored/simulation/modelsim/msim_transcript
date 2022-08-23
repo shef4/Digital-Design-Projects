@@ -1,0 +1,85 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do project4Top_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/sefun/Dev/Digital-Design-Projects/ECE\ 3544\ Project\ 4/project4_restored {C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/fsm_sefunmi.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:20:30 on Apr 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored" C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/fsm_sefunmi.v 
+# -- Compiling module fsm_sefunmi
+# 
+# Top level modules:
+# 	fsm_sefunmi
+# End time: 17:20:31 on Apr 26,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sefun/Dev/Digital-Design-Projects/ECE\ 3544\ Project\ 4/project4_restored {C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/counter_clk_sefunmi.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:20:31 on Apr 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored" C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/counter_clk_sefunmi.v 
+# -- Compiling module counter_clk_sefunmi
+# 
+# Top level modules:
+# 	counter_clk_sefunmi
+# End time: 17:20:31 on Apr 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sefun/Dev/Digital-Design-Projects/ECE\ 3544\ Project\ 4/project4_restored {C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/buttonpressed.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:20:31 on Apr 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored" C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/buttonpressed.v 
+# -- Compiling module buttonpressed
+# 
+# Top level modules:
+# 	buttonpressed
+# End time: 17:20:31 on Apr 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sefun/Dev/Digital-Design-Projects/ECE\ 3544\ Project\ 4/project4_restored {C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/hex_display.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:20:31 on Apr 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored" C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/hex_display.v 
+# -- Compiling module hex_display
+# 
+# Top level modules:
+# 	hex_display
+# End time: 17:20:31 on Apr 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/sefun/Dev/Digital-Design-Projects/ECE\ 3544\ Project\ 4/project4_restored {C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/decoder4to10_sefunmi.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:20:31 on Apr 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored" C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/decoder4to10_sefunmi.v 
+# -- Compiling module decoder4to10_sefunmi
+# ** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/decoder4to10_sefunmi.v(8): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/decoder4to10_sefunmi.v(9): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/decoder4to10_sefunmi.v(10): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/decoder4to10_sefunmi.v(11): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/decoder4to10_sefunmi.v(12): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/decoder4to10_sefunmi.v(13): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/decoder4to10_sefunmi.v(14): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/decoder4to10_sefunmi.v(15): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/decoder4to10_sefunmi.v(16): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/decoder4to10_sefunmi.v(17): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/decoder4to10_sefunmi.v(18): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/decoder4to10_sefunmi.v(20): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	decoder4to10_sefunmi
+# End time: 17:20:31 on Apr 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 12
+# vlog -vlog01compat -work work +incdir+C:/Users/sefun/Dev/Digital-Design-Projects/ECE\ 3544\ Project\ 4/project4_restored {C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/project4Top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:20:32 on Apr 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored" C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/project4Top.v 
+# -- Compiling module project4Top
+# 
+# Top level modules:
+# 	project4Top
+# End time: 17:20:32 on Apr 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 

@@ -1,0 +1,11 @@
+module project4Top(CLOCK_50, KEY, SW, LEDS, HEX5, HEX4, HEX3, HEX2, HEX1, HEX0);
+	input        CLOCK_50;
+	input  [3:0] KEY;
+	input  [9:0] SW;
+	output [9:0] LEDS;
+	output [6:0] HEX5, HEX4, HEX3, HEX2, HEX1, HEX0;
+
+// INSTANTIATE THE MODULES THAT IMPLEMENT YOUR TOP LEVEL MODULE STARTING HERE.
+	
+		
+endmodule

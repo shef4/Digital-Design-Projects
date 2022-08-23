@@ -1,0 +1,45 @@
+Quartus Prime Archive log --	C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/__project4Top.auto.qarlog
+
+Archive:	C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/__project4Top.auto.qar
+Date:		Tue Apr 26 22:42:01 2022
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/buttonpressed.v
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/counter_clk_sefunmi.v
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/db/project4.qpf
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/db/project4Top.cbx.xml
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/decoder4to10_sefunmi.v
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/fsm_sefunmi.v
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/hex_display.v
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/output_files/project4Top.asm.rpt
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/output_files/project4Top.cdf
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/output_files/project4Top.done
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/output_files/project4Top.eda.rpt
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/output_files/project4Top.fit.rpt
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/output_files/project4Top.fit.smsg
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/output_files/project4Top.fit.summary
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/output_files/project4Top.flow.rpt
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/output_files/project4Top.jdi
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/output_files/project4Top.map.rpt
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/output_files/project4Top.map.summary
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/output_files/project4Top.pin
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/output_files/project4Top.sld
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/output_files/project4Top.sof
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/output_files/project4Top.sta.rpt
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/output_files/project4Top.sta.summary
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/project4Top.sdc
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 4/project4_restored/project4Top.v
+assignment_defaults.qdf
+c5_pin_model_dump.txt
+project4Top.qsf
+project4Top.restore.rpt
+project4Top_assignment_defaults.qdf
+project4Top_nativelink_simulation.rpt
+tb_counter_clk_sefunmi.v
+tb_fsm16bit.v
+tb_pay_phone_sefunmi.v
+	======= Total: 34 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

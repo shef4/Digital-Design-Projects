@@ -1,0 +1,27 @@
+Quartus Prime Archive log --	C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/Project5_sefunmi.qarlog
+
+Archive:	C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/Project5_sefunmi.qar
+Date:		Wed May 04 21:00:20 2022
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/Project5.qpf
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/Project5Top.qsf
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/Project5Top_assignment_defaults.qdf
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/alu_sefunmi.v
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/assignment_defaults.qdf
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/buttonpressed.v
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/controlUnit_sefunmi.v
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/decoder4to16_sefunmi.v
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/functionUnit_sefunmi.v
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/hex_display.v
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/inputRegister_sefunmi.v
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/outputRegister_sefunmi.v
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/project5Top.sdc
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/project5Top.v
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/seq_mult_sefunmi.v
+C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/shifter_sefunmi.v
+	======= Total: 16 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

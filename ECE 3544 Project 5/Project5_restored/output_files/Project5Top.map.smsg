@@ -1,0 +1,4 @@
+Warning (10273): Verilog HDL warning at shifter_sefunmi.v(16): extended using "x" or "z" File: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/shifter_sefunmi.v Line: 16
+Warning (10273): Verilog HDL warning at alu_sefunmi.v(22): extended using "x" or "z" File: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/alu_sefunmi.v Line: 22
+Warning (10268): Verilog HDL information at seq_mult_sefunmi.v(22): always construct contains both blocking and non-blocking assignments File: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/seq_mult_sefunmi.v Line: 22
+Warning (10273): Verilog HDL warning at functionUnit_sefunmi.v(18): extended using "x" or "z" File: C:/Users/sefun/Dev/Digital-Design-Projects/ECE 3544 Project 5/Project5_restored/functionUnit_sefunmi.v Line: 18
